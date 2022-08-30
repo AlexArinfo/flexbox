@@ -1,0 +1,114 @@
+#allflags {
+    display: flex;
+    justify-content: space-around;
+}
+
+.flag {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.item {
+    width: 80%;
+    height: 200px;
+}
+
+/* france */
+#france{
+    display: flex;
+}
+
+#france #francebleu {
+    width: 33%;
+    background-color: blue;
+    height: 100%;
+}
+
+#france #franceblanc {
+    width: 33%;
+    background-color: blanc;
+    height: 100%;
+}
+
+#france #francerouge {
+    width: 33%;
+    background-color: red;
+    height: 100%;
+}
+/* fin france */
+
+/* allemagne */
+#allemagne #allemagnenoir{
+    width: 100%;
+    background-color: black;
+    height: 33%;
+}
+
+#allemagne #allemagnerouge{
+    width: 100%;
+    background-color:red;
+    height: 33%;
+}
+
+#allemagne #allemagnejaune{
+    width: 100%;
+    background-color: yellow;
+    height: 33%;
+}
+/* fin allemagne */
+
+/* canada */
+#canada{
+    display: flex;
+}
+
+#canada .canadarouge{
+width: 25%;
+background-color:red;
+height: 100%;
+}
+
+#canada #canadablanc{
+    width: 50%;
+    background-color: white;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#canadablanc .fa-canadian-maple-leaf{
+    font-size: 100px;
+    color: red;
+}
+/* fin canada */
+
+/* liban */
+#liban{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+
+.libanrouge{
+    width: 100%;
+    height: 20%;
+    background-color: red;
+}
+
+#libanblanc{
+    width: 100%;
+    height: 60%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#libanblanc .fa-tree{
+    color: teal;
+    font-size: 100px;
+}
+/* fin */
