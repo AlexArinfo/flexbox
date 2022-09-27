@@ -1,0 +1,106 @@
+body{
+    margin: 0;
+    main{
+        .drapeau{
+            display: flex;
+            justify-content: space-between;
+            height: 200px;
+            .fra{
+                width: 22%;
+                height: 100%;
+                display: flex;
+                                
+                #bleu{
+                    background-color: blue;
+                    width: 33%;
+                    
+                }
+                #blanc{
+                    background-color: white;
+                    width: 33%;
+                    
+                }
+                #rouge{
+                    background-color: red;
+                    width: 33%;
+                }
+            }    
+            .all{
+                width: 22%;
+                height: 100%;
+                display: flex;  
+                flex-direction: column;                
+                
+                #noir{
+                    background-color: black;
+                    
+                    height:33%
+                }
+                #rouge2{
+                    background-color: red;
+                   
+                    height:33%
+                }
+                #jaune{
+                    background-color: yellow;
+                   
+                    height:33%
+                }
+            }
+
+            .can{
+                width: 22%;
+                height: 100%;
+                display: flex;               
+                
+                #rouge3g{
+                    background-color: red;
+                    width: 25%;
+                }
+                #blanc2{
+                    background-color:white;
+                    width: 50%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    i{
+                        font-size: 4em;
+                        color: red;
+                    }
+                }
+                #rouge3d{
+                    background-color: red;
+                    width: 25%;
+                }
+            }
+            .lib{
+                width: 22%;
+                height: 100%;
+                display: flex; 
+                flex-direction: column;              
+                
+                #rouge4h{
+                    background-color: red;
+                    height: 35%;
+                }
+                #blanc3{
+                    background-color:white;
+                    height: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    i{
+                        font-size: 4em;
+                        color: green;
+                    }
+                }
+                #rouge4b{
+                    background-color: red;
+                    height: 35%;
+                }
+            }
+        }
+    }
+    
+}
+
