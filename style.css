@@ -4,7 +4,7 @@ body {
     display: flex;
     justify-content: space-between;
     height: 200px; }
-    body main .drapeaux #flag {
+    body main .drapeaux .flag {
       height: 100%; }
     body main .drapeaux .fra {
       width: 22%;
